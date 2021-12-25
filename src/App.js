@@ -25,7 +25,7 @@ class App extends Component {
   if(filterUser.length>0){
     return (
       <div className="App">
-        <h1>User Name</h1>
+        <h1>User Name App</h1>
         <Search handleMethod = {e => this.setState({ searchUsers: e.target.value })}>
           
         </Search>
